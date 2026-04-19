@@ -16,7 +16,7 @@ Jsi subagent fáze 1 vyhledávání dle `search_definition.md` (kritéria zahrnu
 
 ## Úkol
 
-1. Spusť webové vyhledávání přesně podle dotazu výše (obsahuje `after:2023-12-31`).
+1. Spusť webové vyhledávání podle dotazu výše
 2. Pro každý výsledek, který **není** už v seznamu existujících souborů:
    - stáhni obsah (`WebFetch`)
    - ověř, že splňuje kritéria zahrnutí (viz `search_definition.md`)
@@ -28,4 +28,4 @@ Jsi subagent fáze 1 vyhledávání dle `search_definition.md` (kritéria zahrnu
 
 ## Návrat
 
-Jedna věta: počet nově uložených článků + stručný seznam zdrojů. Nic víc.
+Počet nově uložených článků.
