@@ -32,3 +32,11 @@
 | daň maso zdanění klimatická politika after:2023-12-31 | politický nástroj z dim. 6.2 rámce veganství — česká média diskutují o zdanění masa jako nástroji klimatické politiky | hotovo | 9 |
 | site:greenpeace.org/czech after:2023-12-31 | 2 nalezené články Greenpeace (EUDR, oceány), organizace aktivně publikuje — pravděpodobně více relevantního obsahu | hotovo | 7 |
 | site:denikreferendum.cz maso OR veganství OR rostlinná strava after:2023-12-31 | levicové enviro médium Deník Referendum, v datasetu zcela chybí — pravděpodobně pokrývá enviro zemědělství | hotovo | 1 |
+| site:ekolist.cz maso OR veganství OR živočišná výroba after:2023-12-31 | Ekolist.cz se v iteraci 3 objevil 4× s Dominantními články (dánská daň, EUDR, dotace EU, biodiverzita) — přední český enviro portál bez site-specifického dotazu | hotovo | 2 |
+| site:respekt.cz after:2023-12-31 | největší český týdeník, v datasetu zcela chybí — paywall, odpovídá profilu pokrytí | hotovo | 2 |
+| biopaliva odlesňování sója palmový olej after:2023-12-31 | ILUC úhel — biopaliva z palmového/sójového oleje mají větší uhlíkový dluh než fosilní paliva; propojení zemědělství, odlesňování a klimatu přes biopaliva dosud chybí | hotovo | 5 |
+| regenerativní zemědělství klima emise after:2023-12-31 | protipól intenzivní živočišné výrobě, v mediální debatě narůstající téma; Agroportal24h přinesl první článek, pravděpodobně více | hotovo | 9 |
+| pesticidy biodiverzita opylovači zemědělství after:2023-12-31 | dva nové články (Ochrana přírody, Médium.cz) otevřely pesticide/pollinator úhel — podkategorie dim. 6 s jinou slovní zásobou než obecný dotaz o biodiverzitě | hotovo | 3 |
+| hnojiva amoniak emise dusík zemědělství after:2023-12-31 | dim. 4 (acidifikace — NH₃) a dim. 5 (eutrofizace — N/P) bez jediného dedikovaného dotazu; hnojiva/amoniak z živočišné výroby regulačně sledované téma v ČR | hotovo | 4 |
+| zákon obnovy přírody zemědělství biodiverzita after:2023-12-31 | EU Nature Restoration Law vstoupilo v platnost 2024, explicitně zahrnuje zemědělské plochy; EnviWeb přinesl první článek, pravděpodobně více | hotovo | 5 |
+| Farm to Fork strategie maso emise after:2023-12-31 | EU Green Deal zemědělská strategie citovaná jako klíčový politický rámec v Deník Referendum i Greenpeace článcích, dosud bez vlastního dotazu | hotovo | 3 |
