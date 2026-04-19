@@ -157,11 +157,11 @@ Na rozdíl od environmentálních dopadů neexistuje jediná zastřešující st
 
 ## Kritéria zahrnutí
 
-- české mediální obsahy v **psané podobě** — články, přepsané rozhovory, newslettery, psané reportáže a komentáře (zvukové a obrazové formáty jako podcasty a videa nejsou do vzorku zahrnuty, pokud k nim neexistuje oficiální psaný přepis publikovaný daným médiem)
+- české mediální obsahy v **psané podobě** — mediální články, přepsané rozhovory, psané reportáže a komentáře
 - publikované v období **1. 1. 2024 – 17. 4. 2026**
 - spojující **veganství / živočišnou produkci / rostlinnou produkci** s **ochranou životního prostředí**
 - kategorie médií: veřejnoprávní, soukromá / komerční, environmentálně nebo vegansky zaměřená
-- do vzorku je zahrnuto jakékoli médium, u nějž bude nalezen alespoň jeden relevantní text (očekávaný celkový počet textů je nízký)
+- do vzorku je zahrnuto jakékoli médium, u nějž bude nalezen alespoň jeden relevantní text
 
 ## Škála intenzity environmentálního rámce
 
@@ -172,44 +172,129 @@ Pro každý článek se určuje intenzita přítomnosti environmentálního rám
 | **Dominantní** | Enviro rámec je primárním tématem článku — článek by bez tohoto rámce nevznikl. Enviro argument tvoří páteř celého textu. |
 | **Přítomný** | Enviro argument tvoří alespoň jeden odstavec s vlastní argumentační logikou, ale není primárním tématem článku. Médium vědomě pracuje s enviro rámcem jako součástí sdělení. |
 | **Marginální** | Enviro téma se v článku vyskytuje pouze jako jedna věta nebo dekorativní zmínka bez argumentačního rozvití. |
-| **Nulový** | Enviro téma se v článku nevyskytuje. |
+| **Nulový** | Enviro téma se v článku nevyskytuje — článek **není** zahrnut do vzorku. |
 
 ## Přístup k paywallovým zdrojům
 
-Do vzorku jsou zahrnuty i články za paywallem (např. *Respekt*). Pokud vyhledávání na webu bez předplatného najde relevantní článek u zdroje za paywallem, bude následně provedeno vyhledávání konkrétně pro daný zdroj s aktivním předplatným.
+Do vzorku jsou zahrnuty i články za paywallem (např. *Respekt*). Pokud vyhledávání na webu bez předplatného najde relevantní článek u zdroje za paywallem, bude následně provedeno vyhledávání konkrétně pro daný zdroj s aktivním předplatným. V názvu souboru se značí `[paywall]`, ať je jasné, co dodělat ručně.
 
-## Postup vyhledávání článků — iterativní
+## Struktura souborů
 
-### Fáze 0 — Iniciální brainstorming vyhledávacích výrazů
+```
+/
+├── search_definition.md            # tento soubor (co a proč + postup)
+├── search_prompt.md                # prompt pro subagenta fáze 1
+├── search_queries.md               # log vyhledávacích dotazů (append-only)
+└── articles/
+    └── *datum* - *zdroj* - *intenzita* - *název*.md
+```
 
-- **Vstup:** kombinace klíčových slov z témat ochrany životního prostředí a veganství
-- **Výstup:** navržené vyhledávací dotazy, široce pokrývající kombinace obou témat
-- Každý dotaz je doplněn komentářem, proč by mohl být relevantní
+## Formát článku
+
+**Název souboru:** `YYYY-MM-DD - zdroj - intenzita - název článku.md`
+(paywallové navíc označit `[paywall]` za názvem)
+
+**Obsah — příklad:**
+
+```markdown
+---
+nazev: Proč mladí Češi stále méně často sahají po mase
+url: https://denikreferendum.cz/clanek/35421-proc-mladi-cesi-stale-mene-casto-sahaji-po-mase
+datum: 2025-06-15
+zdroj: Deník Referendum
+intenzita: Dominantní
+dotaz: rostlinná strava uhlíková stopa after:2023-12-31
+---
+
+## Sumarizace relevantnosti
+
+Článek staví generační posun ve spotřebě masa primárně na environmentálním
+argumentu (uhlíková stopa hovězího, odlesňování Amazonie kvůli sóji pro krmivo).
+Zmiňuje studii Poore & Nemecek. Enviro rámec tvoří páteř celého textu → Dominantní.
+
+## Text článku
+
+[plný text staženého článku]
+```
+
+## Formát `search_queries.md`
+
+Append-only log. Stav se mění, řádky se nemažou.
+
+```markdown
+# Vyhledávací dotazy
+
+| Dotaz | Vysvětlení | Stav | Nových článků |
+|-------|------------|------|---------------|
+| veganství klima after:2023-12-31 | překryv enviro + veganství | hotovo | 4 |
+| rostlinná strava uhlíková stopa after:2023-12-31 | mediální enviro terminologie | čeká | — |
+```
+
+- **Stav**: `čeká` | `hotovo`
+- **Nových článků**: počet článků nově uložených právě tímto dotazem (duplicity s předchozími dotazy se nepočítají)
+- Každý dotaz **musí** obsahovat `after:2023-12-31`
+
+## Postup vyhledávání (iterativní smyčka)
+
+```
+opakuj:
+    [čistý kontext] fáze 1 — vyhledávání
+    /clear
+    [čistý kontext] fáze 2 — brainstorming
+    /clear
+dokud fáze 2 nepřidá žádný nový dotaz  (saturace)
+```
+
+### Fáze 0 — Iniciální brainstorming
+
+Kombinace klíčových slov z enviro + veganství → široké pokrytí obou témat, každý dotaz s krátkým vysvětlením. Zapsat do `search_queries.md` se stavem `čeká`.
 
 ### Fáze 1 — Vyhledávání
 
-- Pro každý vyhledávací dotaz spustit vyhledávání
-- Nalezené články stáhnout (pokud ještě nebyly nalezeny) a uložit ve tvaru:
-  - **Název souboru:** `*datum vydání* - *zdroj* - *škála intenzity rámce* - *název článku*.md`
-  - **Obsah souboru:**
-    - název článku
-    - datum vydání
-    - zdroj
-    - škála intenzity
-    - vyhledávací dotaz, kterým byl článek nalezen
-    - sumarizace relevantnosti článku
-    - text článku
-- Cílené prohledání webů těchto médií pro zachycení článků, které webové vyhledávání nezobrazilo
-- Výběr médií vyplývá z dat, nikoli ze subjektivního rozhodnutí
+**Vstup:** `search_queries.md` s alespoň jedním řádkem ve stavu `čeká`.
 
-### Fáze 2 — Iterativní brainstorming nových vyhledávacích výrazů
+Pro každý čekající dotaz hlavní agent **postupně — vždy jen jednoho** spustí subagenta (`general-purpose`, viz `search_prompt.md`). Po návratu subagenta hlavní agent okamžitě:
 
-- Na základě již nalezených článků navrhovat další vyhledávací výrazy
-- **Vyhledávání podobných článků** — při nalezení článku zkusit vygenerovat podobné dotazy
-- **Prohledávání slepých míst** — vygenerovat výrazy v okruzích témat, kde zatím žádné články nejsou, pro ověření
-- **Prohledávání na konkrétních zdrojích** — dotazy specificky pro daný zdroj (`site:example.com`), pro ověření, že zdroj neobsahuje další podobné články
-- **Prohledávání mimo konkrétní zdroje** — dotazy s vyloučením zdroje (`-site:example.com`) pro případ, že by bylo vyhledání saturováno jedním zdrojem
+1. změní stav dotazu na `hotovo`
+2. doplní **Nových článků**
+3. teprve pak spustí dalšího subagenta
 
-### Kritérium ukončení vyhledávání (saturace)
+Konec iterace: jedna věta shrnutí (počet nových, zdroje), git commit, `/clear`.
 
-Vyhledávání je považováno za saturované, pokud žádné další vyhledávací dotazy (ani v okruzích podobných článků, ani ve slepých místech, ani na úrovni konkrétních zdrojů) nepřinášejí nové relevantní články — tj. všechny výsledky jsou již obsaženy ve vzorku.
+### Fáze 2 — Brainstorming nových dotazů
+
+**Vstup:** čistý kontext. Agent načte:
+
+- `search_definition.md`
+- `search_queries.md`
+- **plné obsahy článků z poslední iterace** (podle `Nových článků` u dotazů, které právě přibyly). Pro starší články stačí názvy.
+
+Obsah nových článků je klíčový pro směr dalšího hledání — mediální jazyk, argumenty, slepá místa. Navrhnout nové dotazy podle těchto principů:
+
+- **podobné články** — terminologie z nově nalezených článků
+- **slepá místa** — kategorie analytických rámců bez pokrytí (např. žádný článek o rybolovu)
+- `site:zdroj.cz` — kde má zdroj víc článků, ověřit další
+- `-site:zdroj.cz` — pokud vzorek dominuje jeden zdroj
+
+Každý dotaz s krátkým vysvětlením, zapsat do `search_queries.md` se stavem `čeká`. Konec iterace, `/clear`.
+
+### Kritérium ukončení (saturace)
+
+Vyhledávání je saturované, pokud fáze 2 **nepřidá žádný nový dotaz** — žádné další okruhy podobných článků, slepých míst ani zdrojových dotazů nevedou k novým relevantním výsledkům. Ruční stop je vhodný už po 2 prázdných iteracích za sebou.
+
+## Doporučení pro výkon a cenu
+
+- **Subagenti fáze 1 sekvenčně** — jeden po druhém, aby každý měl aktuální seznam existujících článků a nepřekračoval se rate limit
+- Haiku pro subagenty fáze 1, Sonnet pro hlavní vlákno a fázi 2
+- **`/clear` mezi fázemi povinný** — bez něj kontext roste a prompt cache se rozpadá
+- **Prompt caching**: `search_definition.md` držet na začátku promptu subagenta
+- **Deduplikace přes název souboru** — subagent dostane seznam existujících názvů, ušetří `WebFetch`
+- **Jedna iterace = jeden git commit** — rollback, diff mezi iteracemi, stabilní cache
+
+## Na co pamatovat
+
+- `search_queries.md` je append-only. Stav se mění, obsah ne.
+- Pokud subagent selže (timeout, nedostupný web), dotaz zůstává `čeká` — příští iterace zopakuje.
+- Klasifikaci intenzity rámce dělá subagent, který článek čte. Hlavní agent ji nerevizuje bez důvodu.
+- Pole „dotaz" u článku je **prvonalezení**, ne seznam — pokud už článek existuje, nic se nemění.
+- Výběr médií vyplývá z dat, nikoli ze subjektivního rozhodnutí.
