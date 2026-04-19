@@ -22,3 +22,13 @@
 | site:ct24.cz maso OR veganství OR rostlinná strava after:2023-12-31 | veřejnoprávní ČT24 — jen 1 článek, klíčové pro VO3 a VO4 (veřejnoprávní vs. komerční) | hotovo | 2 |
 | site:irozhlas.cz maso OR veganství OR rostlinná strava after:2023-12-31 | veřejnoprávní rozhlas — dosud 0 článků, stejná výzkumná motivace jako ČT24 | hotovo | 15 |
 | sója krmivo odlesňování after:2023-12-31 | sója jako krmivo pro dobytek a vazba na deforestaci Amazonie — specifičtější než obecný "chov zvířat odlesňování" | hotovo | 2 |
+| hmyz alternativní protein udržitelnost after:2023-12-31 | jedlý hmyz jako alternativa masa — 2 články nalezeny mimochodem (WelfareWeb, iROZHLAS), žádný dedikovaný dotaz dosud | hotovo | 1 |
+| potravinový odpad plýtvání emise after:2023-12-31 | plýtvání potravinami jako enviro argument — zmíněno v Zachraň jídlo a WWF článku, celá dimenze bez dedikovaného dotazu | hotovo | 8 |
+| ekologická stopa strava Česko after:2023-12-31 | jiný rámec než "uhlíková stopa" (ten dal 0 výsledků) — WWF/Earth Overshoot Day, spotřebitelský úhel s českou specifikou | hotovo | 7 |
+| welfare zvířat průmyslový chov klima after:2023-12-31 | CIWF úhel: dobrobytu zvířat jako argument propojený s klimatem — "Spirála klimatické zkázy" tento průnik explicitně tematizuje | hotovo | 2 |
+| biodiverzita zemědělství ztráta after:2023-12-31 | dim. 6 analytického rámce (biodiverzita) bez jediného dedikovaného dotazu — pesticidy, ztráta habitatu, monokulturní krmné plodiny | hotovo | 11 |
+| akvakultura chov ryb životní prostředí after:2023-12-31 | 1 článek nalezen mimochodem (produkce rybích farem překonala rybolov), akvakultura jako specifická podkategorie dim. 7 bez vlastního dotazu | hotovo | 9 |
+| palmový olej odlesňování klima after:2023-12-31 | komodita explicitně zmíněná v EUDR článcích (vedle sóji a hovězího), dosud bez samostatného dotazu | hotovo | 6 |
+| daň maso zdanění klimatická politika after:2023-12-31 | politický nástroj z dim. 6.2 rámce veganství — česká média diskutují o zdanění masa jako nástroji klimatické politiky | hotovo | 10 |
+| site:greenpeace.org/czech after:2023-12-31 | 2 nalezené články Greenpeace (EUDR, oceány), organizace aktivně publikuje — pravděpodobně více relevantního obsahu | hotovo | 7 |
+| site:denikreferendum.cz maso OR veganství OR rostlinná strava after:2023-12-31 | levicové enviro médium Deník Referendum, v datasetu zcela chybí — pravděpodobně pokrývá enviro zemědělství | hotovo | 1 |
