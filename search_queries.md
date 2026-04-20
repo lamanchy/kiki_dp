@@ -58,7 +58,7 @@
 | site:vitalia.cz rostlinná strava OR veganství OR udržitelnost after:2023-12-31 | zdravotní/lifestyle portál — průnik veganství + zdraví + enviro, jiný diskurz než zpravodajství | hotovo | 0 |
 | site:forbes.cz rostlinná strava OR lab-grown meat OR udržitelnost after:2023-12-31 | byznysový rámec — investice do alt-proteinů, ESG potravinářských firem | hotovo | 0 |
 | site:ct24.cz živočišná výroba OR emise OR daň maso after:2023-12-31 | ČT24 má 4 články, ale dosavadní dotaz byl příliš obecný — cílenější na enviro aspekt | hotovo | 0 |
-| EUDR nařízení odlesňování maso sója Česko after:2023-12-31 | EUDR vstoupilo 2024, česká média přinesla první vlnu, druhá vlna po odkladech nařízení pravděpodobná | hotovo | 8 |
+| EUDR nařízení odlesňování maso sója Česko after:2023-12-31 | EUDR vstoupilo 2024, česká média přinesla první vlnu, druhá vlna po odkladech nařízení pravděpodobná | hotovo | 5 |
 | uhlíkové clo CBAM potraviny import emise after:2023-12-31 | Carbon Border Adjustment Mechanism — diskutuje se rozšíření na zemědělství, politicky citlivé | hotovo | 0 |
 | národní klimatický plán Česko zemědělství emise after:2023-12-31 | česká klimatická politika + zemědělský sektor — Ministerstvo zemědělství vs. MŽP napětí | hotovo | 0 |
 | site:soucitne.cz životní prostředí OR klima OR emise OR vegan after:2023-12-31 | Soucitně.cz má 6+ článků v datasetu, ale žádný site: dotaz — zaměřený portál, pravděpodobně více relevantního obsahu | hotovo | 7 |
@@ -66,7 +66,7 @@
 | site:seznamzpravy.cz maso OR veganství OR rostlinná strava OR emise after:2023-12-31 | Seznam Zprávy — jen 1 článek, přitom druhý největší zpravodajský web ČR | hotovo | 3 |
 | site:ekonews.cz maso OR veganství OR živočišná výroba OR emise after:2023-12-31 | Ekonews.cz má 4+ článků (dánská daň, rostlinné alternativy, EUDR), žádný site: dotaz — ekonomické zpravodajství s enviro přesahem | hotovo | 4 |
 | označení rostlinných výrobků EU zákaz název maso after:2023-12-31 | naming controversy — EU návrh 29 zakázaných slov pro rostlinné produkty (burger, steak, párek), zmiňováno v DR článku; jiný slovní základ než dosavadní dotazy | hotovo | 3 |
-| přesná fermentace alternativní protein potraviny after:2023-12-31 | precision fermentation — výroba bílkovin (syrovátka, kasein, vaječný bílek) bez zvířat pomocí mikroorganismů; odlišná technologie od kultivovaného masa, dosud bez dotazu | hotovo | 0 |
+| přesná fermentace alternativní protein potraviny after:2023-12-31 | precision fermentation — výroba bílkovin (syrovátka, kasein, vaječný bílek) bez zvířat pomocí mikroorganismů; odlišná technologie od kultivovaného masa, dosud bez dotazu | hotovo | 4 |
 | mykoprotein houbový protein alternativa masa after:2023-12-31 | mycoprotein (Quorn, Fusarium venenatum) — nalezen ve 2 článcích mimochodem, nízká uhlíková stopa, rostoucí téma v ČR; dosud bez vlastního dotazu | hotovo | 0 |
 | vepřové drůbež emise klimatická stopa after:2023-12-31 | dosavadní dotazy dominuje skot — vepřový a drůbeží průmysl jsou největší živočišné sektory ČR a mají specifický emisní profil (N₂O z hnoje, bez enterické fermentace) | hotovo | 1 |
 | znečištění vody zemědělství dusičnany Česko after:2023-12-31 | dim. 5 (eutrofizace) — průsak dusíku a fosforu z živočišné výroby do povrchových a podzemních vod; v ČR aktuální regulační téma (nitrátová směrnice), v datasetu zcela chybí | hotovo | 0 |
@@ -99,10 +99,10 @@
 | Mercosur obchod maso klima import after:2023-12-31 | EU-Mercosur obchodní dohoda explicitně zmíněna v Zemedelci i Ekonomickém deníku — geopolitický argument (import nižší standardy) v dosavadních dotazech chybí | hotovo | 0 |
 | lobbing masný průmysl klimatická politika after:2023-12-31 | Radio Wave přinesl analýzu Changing Markets Foundation o lobbingu masného průmyslu a mlékáren — průnik korporátní strategie a klimatické politiky | hotovo | 1 |
 | site:wave.rozhlas.cz maso OR zemědělství OR klima after:2023-12-31 | Radio Wave (Český rozhlas) přinesl článek o lobbingu masa — veřejnoprávní zdroj bez site: dotazu | hotovo | 2 |
-| školní jídelny vyhláška bezmasé stravování after:2023-12-31 | Echo24 a Novinky přinesly články o nové stravovací vyhlášce — specifičtější než obecný dotaz na školní stravování, policy implementace | čeká | — |
-| site:apetitonline.cz vegetariánství OR veganství OR rostlinné after:2023-12-31 | Apetit Online se objevil s receptovým textem o týdnu bez masa — kulinární portál bez site: dotazu, odlišný diskurz | čeká | — |
-| site:avokado.cz rostlinné OR veganství OR trendy after:2023-12-31 | Avokádo přinesl přehled trendů vaření 2025 s rostlinnými pokrmy a zero-waste — gastronomický portál bez site: dotazu | čeká | — |
-| site:zemedelec.cz maso OR živočišná výroba OR klima after:2023-12-31 | Zemedelec.cz přinesl článek o dovozu z Jižní Ameriky — zemědělský odborný portál bez site: dotazu | čeká | — |
-| Earth Overshoot Day Česko strava přírodní zdroje after:2023-12-31 | WWF lokalizovala Earth Overshoot Day pro ČR — specifická enviro metrika propojená se stravovacími vzorci, jiný rámec než obecná "ekologická stopa" | čeká | — |
-| welfare zvířat import maso standardy after:2023-12-31 | Zemedelec a Ekonomický deník otevřely téma importu masa s nižšími welfare standardy — kombinace welfare+obchod dosud bez dotazu | čeká | — |
-| vegetariánské párky burger EU parlament zákaz after:2024-12-31 | Evropský parlament odhlasoval zákaz názvů (WWF 2025-10) — specifičtější a aktuálnější než obecný dotaz na označování rostlinných výrobků (#68), zachytí navazující mediální reakce | čeká | — |
+| školní jídelny vyhláška bezmasé stravování after:2023-12-31 | Echo24 a Novinky přinesly články o nové stravovací vyhlášce — specifičtější než obecný dotaz na školní stravování, policy implementace | hotovo | 0 |
+| site:apetitonline.cz vegetariánství OR veganství OR rostlinné after:2023-12-31 | Apetit Online se objevil s receptovým textem o týdnu bez masa — kulinární portál bez site: dotazu, odlišný diskurz | hotovo | 1 |
+| site:avokado.cz rostlinné OR veganství OR trendy after:2023-12-31 | Avokádo přinesl přehled trendů vaření 2025 s rostlinnými pokrmy a zero-waste — gastronomický portál bez site: dotazu | hotovo | 0 |
+| site:zemedelec.cz maso OR živočišná výroba OR klima after:2023-12-31 | Zemedelec.cz přinesl článek o dovozu z Jižní Ameriky — zemědělský odborný portál bez site: dotazu | hotovo | 1 |
+| Earth Overshoot Day Česko strava přírodní zdroje after:2023-12-31 | WWF lokalizovala Earth Overshoot Day pro ČR — specifická enviro metrika propojená se stravovacími vzorci, jiný rámec než obecná "ekologická stopa" | hotovo | 0 |
+| welfare zvířat import maso standardy after:2023-12-31 | Zemedelec a Ekonomický deník otevřely téma importu masa s nižšími welfare standardy — kombinace welfare+obchod dosud bez dotazu | hotovo | 3 |
+| vegetariánské párky burger EU parlament zákaz after:2024-12-31 | Evropský parlament odhlasoval zákaz názvů (WWF 2025-10) — specifičtější a aktuálnější než obecný dotaz na označování rostlinných výrobků (#68), zachytí navazující mediální reakce | hotovo | 0 |
