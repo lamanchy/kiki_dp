@@ -93,3 +93,16 @@
 | Hnutí DUHA zemědělství Česko klima after:2023-12-31 | Hnutí DUHA jako citovaný zdroj nebo aktér v debatě o zemědělství a klimatu — zjistit zda organizace v médiích viditelná | hotovo | 1 |
 | Potravinářská komora maso klima after:2023-12-31 | průmyslový hráč vs. klimatické požadavky — protipól enviro organizacím, relevantní pro analýzu diskurzu | hotovo | 9 |
 | rostlinné potraviny obchodní řetězce trend after:2023-12-31 | supermarkety a plant-based boom — komerční průnik (Lidl, Albert, Kaufland rozvíjejí plant-based řady) s enviro tématem | hotovo | 0 |
+| site:ekonomickydenik.cz maso OR zemědělství OR propagace after:2023-12-31 | Ekonomický deník se objevil s článkem o miliardě EU na propagaci hovězího masa — ekonomický úhel na conflict of interest, dosud bez site: dotazu | hotovo | 0 |
+| site:zdravezpravy.cz klima OR stravování OR emise after:2023-12-31 | Zdravé zprávy přinesly článek o Green Deal a stravování — zdravotnický portál bez site: dotazu | hotovo | 1 |
+| site:medium.seznam.cz veganství OR klima OR maso after:2023-12-31 | Médium.seznam.cz se objevil s reflexivním textem o veganství a klimatu — blogová platforma Seznam, kulturně-reflexivní rámec | hotovo | 0 |
+| Mercosur obchod maso klima import after:2023-12-31 | EU-Mercosur obchodní dohoda explicitně zmíněna v Zemedelci i Ekonomickém deníku — geopolitický argument (import nižší standardy) v dosavadních dotazech chybí | hotovo | 0 |
+| lobbing masný průmysl klimatická politika after:2023-12-31 | Radio Wave přinesl analýzu Changing Markets Foundation o lobbingu masného průmyslu a mlékáren — průnik korporátní strategie a klimatické politiky | hotovo | 1 |
+| site:wave.rozhlas.cz maso OR zemědělství OR klima after:2023-12-31 | Radio Wave (Český rozhlas) přinesl článek o lobbingu masa — veřejnoprávní zdroj bez site: dotazu | hotovo | 2 |
+| školní jídelny vyhláška bezmasé stravování after:2023-12-31 | Echo24 a Novinky přinesly články o nové stravovací vyhlášce — specifičtější než obecný dotaz na školní stravování, policy implementace | čeká | — |
+| site:apetitonline.cz vegetariánství OR veganství OR rostlinné after:2023-12-31 | Apetit Online se objevil s receptovým textem o týdnu bez masa — kulinární portál bez site: dotazu, odlišný diskurz | čeká | — |
+| site:avokado.cz rostlinné OR veganství OR trendy after:2023-12-31 | Avokádo přinesl přehled trendů vaření 2025 s rostlinnými pokrmy a zero-waste — gastronomický portál bez site: dotazu | čeká | — |
+| site:zemedelec.cz maso OR živočišná výroba OR klima after:2023-12-31 | Zemedelec.cz přinesl článek o dovozu z Jižní Ameriky — zemědělský odborný portál bez site: dotazu | čeká | — |
+| Earth Overshoot Day Česko strava přírodní zdroje after:2023-12-31 | WWF lokalizovala Earth Overshoot Day pro ČR — specifická enviro metrika propojená se stravovacími vzorci, jiný rámec než obecná "ekologická stopa" | čeká | — |
+| welfare zvířat import maso standardy after:2023-12-31 | Zemedelec a Ekonomický deník otevřely téma importu masa s nižšími welfare standardy — kombinace welfare+obchod dosud bez dotazu | čeká | — |
+| vegetariánské párky burger EU parlament zákaz after:2024-12-31 | Evropský parlament odhlasoval zákaz názvů (WWF 2025-10) — specifičtější a aktuálnější než obecný dotaz na označování rostlinných výrobků (#68), zachytí navazující mediální reakce | čeká | — |
