@@ -18,8 +18,10 @@ def main():
         f.seek(0)
         existing = {line.strip() for line in f if line.strip()}
         if url in existing:
+            print("exists")
             sys.exit(1)
         f.write(url + "\n")
+    print("new")
     sys.exit(0)
 
 if __name__ == "__main__":

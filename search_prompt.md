@@ -16,8 +16,8 @@ Jsi subagent fáze 1 vyhledávání dle `search_definition.md` (kritéria zahrnu
    ```
    python check_url.py <url>
    ```
-   - exit 0 → URL je nová, pokračuj na WebFetch
-   - exit 1 → URL již byla zpracována, přeskoč ji
+   - vypíše `new` → URL je nová, pokračuj na WebFetch
+   - vypíše `exists` → URL již byla zpracována, přeskoč ji
 3. Pro nové URL:
    - stáhni obsah (`WebFetch`)
    - klasifikuj intenzitu **veganského rámce** (škála dle `search_definition.md`); pokud = `Nulový`, **přeskoč**
