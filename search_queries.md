@@ -73,3 +73,23 @@
 | planetariánství udržitelná strava klima after:2023-12-31 | nový výživový termín nalezený v iGlanc článku — "planetariánství" jako mediálně zaváděný koncept kombinující enviro a health motivace; může existovat více článků | hotovo | 1 |
 | Žeru maso kampaň Agrární komora after:2023-12-31 | kontroverzní česká kampaň Agrární komory kritizovaná za manipulativní prezentaci zdravotních rizik rostlinné stravy; zmíněna v Deník Referendum článku — přímý průnik enviro + vegafobie | hotovo | 0 |
 | agroekologie biodiverzita zemědělské systémy after:2023-12-31 | agroekologie jako alternativa intenzivního zemědělství (zmíněna v DR článku) — odlišná terminologie od "regenerativní zemědělství" a "ekologické zemědělství", může zachytit jiné zdroje | hotovo | 0 |
+| site:reflex.cz maso OR veganství OR rostlinná strava OR emise after:2023-12-31 | Reflex — týdeník s komentáři a analýzami, konzervativnější pohled, dosud neprohledán | hotovo | 0 |
+| site:echo24.cz maso OR veganství OR rostlinná strava OR klima after:2023-12-31 | Echo24 — konzervativní zpravodajský portál, zajímavý pro diskurzivní analýzu (anti-Green Deal rámec), dosud neprohledán | hotovo | 1 |
+| site:info.cz maso OR veganství OR živočišná výroba OR klima after:2023-12-31 | Info.cz — zpravodajský portál dosud neprohledán | hotovo | 0 |
+| site:blesk.cz maso OR veganství OR klima OR strava after:2023-12-31 | Blesk — nejčtenější bulvár, jak masové médium pokrývá téma klimatu a stravy; odlišný diskurz než seriózní tisk | hotovo | 0 |
+| site:hnutiduha.cz maso OR zemědělství OR klima after:2023-12-31 | Hnutí DUHA — přední česká ekologická NGO, dosud neprohledána, pravděpodobně publikuje o zemědělství a klimatu | hotovo | 0 |
+| site:wwf.cz maso OR zemědělství OR klima OR strava after:2023-12-31 | WWF Česká republika — globální enviro organizace s českou pobočkou, dosud neprohledána | hotovo | 5 |
+| sucho zemědělství klima maso after:2023-12-31 | klimatické extrémy (sucho) jako argument pro změnu zemědělského systému — české sucho 2024 mediálně silné téma | hotovo | 2 |
+| záplavy zemědělství klima Česko after:2023-12-31 | povodně září 2024 v ČR — průnik klimatických extrémů a zemědělské produkce, přímá klimatická urgence | hotovo | 0 |
+| potravinová bezpečnost klima strava after:2023-12-31 | food security jako argument pro přechod na rostlinnou stravu — méně půdy, vody a energie potřeba pro plant-based | hotovo | 1 |
+| antibiotika chov zvířat rezistence after:2023-12-31 | antimikrobiální rezistence z intenzivní živočišné výroby — průnik veřejného zdraví a zemědělství, WHO téma 2024–2025 | hotovo | 0 |
+| COP potraviny strava zemědělství emise after:2023-12-31 | klimatické konference COP28/COP29 a jejich závěry o zemědělství a potravinovém systému — mezinárodní rámec reflektovaný v českých médiích | hotovo | 0 |
+| Beyond Meat alternativní protein Česko after:2023-12-31 | konkrétní značka plant-based masa dostupná v ČR — obchodní průnik s enviro tématem | hotovo | 0 |
+| protein budoucnosti udržitelný alternativní after:2023-12-31 | obecnější rámec alt-proteinů bez konkrétní technologie — může zachytit přehledové články o udržitelném proteinovém systému | hotovo | 2 |
+| veganství průzkum popularita Česko after:2023-12-31 | statistiky o veganství/vegetariánství v ČR — průzkumy veřejného mínění jako mediální zpravodajství | hotovo | 0 |
+| maso konzumace pokles Česko trend after:2023-12-31 | trend snižování spotřeby masa v ČR — datový/statistický úhel, jiný než normativní klimatický rámec | hotovo | 0 |
+| eutrofizace voda zemědělství after:2023-12-31 | variace na dim. 5 (eutrofizace) s odborným termínem místo "znečištění dusičnany" — může zachytit vědecky orientované články | hotovo | 0 |
+| přelov rybolov mořský ekosystém after:2023-12-31 | variace na dim. 7 (oceány) s jiným slovosledem — předchozí dotaz "rybolov přelov životní prostředí" dal 0 výsledků | hotovo | 0 |
+| Hnutí DUHA zemědělství Česko klima after:2023-12-31 | Hnutí DUHA jako citovaný zdroj nebo aktér v debatě o zemědělství a klimatu — zjistit zda organizace v médiích viditelná | hotovo | 1 |
+| Potravinářská komora maso klima after:2023-12-31 | průmyslový hráč vs. klimatické požadavky — protipól enviro organizacím, relevantní pro analýzu diskurzu | hotovo | 9 |
+| rostlinné potraviny obchodní řetězce trend after:2023-12-31 | supermarkety a plant-based boom — komerční průnik (Lidl, Albert, Kaufland rozvíjejí plant-based řady) s enviro tématem | hotovo | 0 |
