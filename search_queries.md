@@ -47,13 +47,13 @@
 | zoonózy průmyslový chov pandemie after:2023-12-31 | průnik welfare + enviro + veřejné zdraví; ptačí chřipka 2024 otevřela téma | hotovo | 1 |
 | lokální sezónní potraviny klimatická stopa doprava after:2023-12-31 | "food miles" a transport jako enviro argument — jiný rámec než produkce | hotovo | 0 |
 | rostlinné mléko ovesné sójové emise klima after:2023-12-31 | boom oat/soy milk v ČR, zatím bez dotazu; mléčný průmysl vs. alternativy | hotovo | 3 |
-| reforma SZP zemědělci protesty Zelená dohoda after:2023-12-31 | protesty zemědělců 2024 explicitně namířené proti klimatickým požadavkům EU — silné politické téma | | |
-| hmyzí farmy alternativní protein Česko after:2023-12-31 | česká domácí produkce jedlého hmyzu — konkrétnější než obecný "hmyz alternativní protein" | | |
-| veganuary výzva Česko 2024 after:2023-12-31 | kampaň Veganuary má českou lokalizaci, ProVeg ji aktivně propaguje; články pravděpodobně existují | | |
-| EAT-Lancet planetární dieta doporučení after:2023-12-31 | vlivná vědecká zpráva citovaná v advocacy kontextu, v ČR mediálně přítomná | | |
+| reforma SZP zemědělci protesty Zelená dohoda after:2023-12-31 | protesty zemědělců 2024 explicitně namířené proti klimatickým požadavkům EU — silné politické téma | hotovo | 0 |
+| hmyzí farmy alternativní protein Česko after:2023-12-31 | česká domácí produkce jedlého hmyzu — konkrétnější než obecný "hmyz alternativní protein" | hotovo | 0 |
+| veganuary výzva Česko 2024 after:2023-12-31 | kampaň Veganuary má českou lokalizaci, ProVeg ji aktivně propaguje; články pravděpodobně existují | hotovo | 2 |
+| EAT-Lancet planetární dieta doporučení after:2023-12-31 | vlivná vědecká zpráva citovaná v advocacy kontextu, v ČR mediálně přítomná | hotovo | 3 |
 | site:idnes.cz maso OR veganství OR živočišná výroba OR klima after:2023-12-31 | největší zpravodajský web ČR, v datasetu zcela chybí — pravděpodobně pokrývá mainstreamové téma masa a klimatu | | |
 | site:novinky.cz maso OR veganství OR emise zemědělství after:2023-12-31 | druhý největší zpravodajský web, 0 článků — Blesk/CN Group profil, ale záběr téma pokrývá | | |
-| site:hn.cz maso OR živočišná výroba OR rostlinná strava after:2023-12-31 | Hospodářské noviny — ekonomický úhel (zdanění, CAP, trh s alternativami), pravděpodobně za paywallem ale dohledatelné | | |
+| site:hn.cz maso OR živočišná výroba OR rostlinná strava after:2023-12-31 | Hospodářské noviny — ekonomický úhel (zdanění, CAP, trh s alternativami), pravděpodobně za paywallem ale dohledatelné | hotovo | 8 |
 | site:lidovky.cz maso OR veganství OR emise zemědělství after:2023-12-31 | Lidovky — kulturní a politický deník, 0 článků v datasetu | | |
 | site:vitalia.cz rostlinná strava OR veganství OR udržitelnost after:2023-12-31 | zdravotní/lifestyle portál — průnik veganství + zdraví + enviro, jiný diskurz než zpravodajství | | |
 | site:forbes.cz rostlinná strava OR lab-grown meat OR udržitelnost after:2023-12-31 | byznysový rámec — investice do alt-proteinů, ESG potravinářských firem | | |
