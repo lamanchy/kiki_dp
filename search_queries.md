@@ -51,13 +51,13 @@
 | hmyzí farmy alternativní protein Česko after:2023-12-31 | česká domácí produkce jedlého hmyzu — konkrétnější než obecný "hmyz alternativní protein" | hotovo | 0 |
 | veganuary výzva Česko 2024 after:2023-12-31 | kampaň Veganuary má českou lokalizaci, ProVeg ji aktivně propaguje; články pravděpodobně existují | hotovo | 2 |
 | EAT-Lancet planetární dieta doporučení after:2023-12-31 | vlivná vědecká zpráva citovaná v advocacy kontextu, v ČR mediálně přítomná | hotovo | 3 |
-| site:idnes.cz maso OR veganství OR živočišná výroba OR klima after:2023-12-31 | největší zpravodajský web ČR, v datasetu zcela chybí — pravděpodobně pokrývá mainstreamové téma masa a klimatu | | |
-| site:novinky.cz maso OR veganství OR emise zemědělství after:2023-12-31 | druhý největší zpravodajský web, 0 článků — Blesk/CN Group profil, ale záběr téma pokrývá | | |
+| site:idnes.cz maso OR veganství OR živočišná výroba OR klima after:2023-12-31 | největší zpravodajský web ČR, v datasetu zcela chybí — pravděpodobně pokrývá mainstreamové téma masa a klimatu | hotovo | 0 |
+| site:novinky.cz maso OR veganství OR emise zemědělství after:2023-12-31 | druhý největší zpravodajský web, 0 článků — Blesk/CN Group profil, ale záběr téma pokrývá | hotovo | 0 |
 | site:hn.cz maso OR živočišná výroba OR rostlinná strava after:2023-12-31 | Hospodářské noviny — ekonomický úhel (zdanění, CAP, trh s alternativami), pravděpodobně za paywallem ale dohledatelné | hotovo | 8 |
-| site:lidovky.cz maso OR veganství OR emise zemědělství after:2023-12-31 | Lidovky — kulturní a politický deník, 0 článků v datasetu | | |
-| site:vitalia.cz rostlinná strava OR veganství OR udržitelnost after:2023-12-31 | zdravotní/lifestyle portál — průnik veganství + zdraví + enviro, jiný diskurz než zpravodajství | | |
-| site:forbes.cz rostlinná strava OR lab-grown meat OR udržitelnost after:2023-12-31 | byznysový rámec — investice do alt-proteinů, ESG potravinářských firem | | |
-| site:ct24.cz živočišná výroba OR emise OR daň maso after:2023-12-31 | ČT24 má 4 články, ale dosavadní dotaz byl příliš obecný — cílenější na enviro aspekt | | |
-| EUDR nařízení odlesňování maso sója Česko after:2023-12-31 | EUDR vstoupilo 2024, česká média přinesla první vlnu, druhá vlna po odkladech nařízení pravděpodobná | | |
-| uhlíkové clo CBAM potraviny import emise after:2023-12-31 | Carbon Border Adjustment Mechanism — diskutuje se rozšíření na zemědělství, politicky citlivé | | |
-| národní klimatický plán Česko zemědělství emise after:2023-12-31 | česká klimatická politika + zemědělský sektor — Ministerstvo zemědělství vs. MŽP napětí | | |
+| site:lidovky.cz maso OR veganství OR emise zemědělství after:2023-12-31 | Lidovky — kulturní a politický deník, 0 článků v datasetu | hotovo | 0 |
+| site:vitalia.cz rostlinná strava OR veganství OR udržitelnost after:2023-12-31 | zdravotní/lifestyle portál — průnik veganství + zdraví + enviro, jiný diskurz než zpravodajství | hotovo | 0 |
+| site:forbes.cz rostlinná strava OR lab-grown meat OR udržitelnost after:2023-12-31 | byznysový rámec — investice do alt-proteinů, ESG potravinářských firem | hotovo | 0 |
+| site:ct24.cz živočišná výroba OR emise OR daň maso after:2023-12-31 | ČT24 má 4 články, ale dosavadní dotaz byl příliš obecný — cílenější na enviro aspekt | hotovo | 0 |
+| EUDR nařízení odlesňování maso sója Česko after:2023-12-31 | EUDR vstoupilo 2024, česká média přinesla první vlnu, druhá vlna po odkladech nařízení pravděpodobná | hotovo | 8 |
+| uhlíkové clo CBAM potraviny import emise after:2023-12-31 | Carbon Border Adjustment Mechanism — diskutuje se rozšíření na zemědělství, politicky citlivé | hotovo | 0 |
+| národní klimatický plán Česko zemědělství emise after:2023-12-31 | česká klimatická politika + zemědělský sektor — Ministerstvo zemědělství vs. MŽP napětí | hotovo | 0 |
