@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Check if URL was already processed. Adds it if new. Exits 0=new, 1=exists."""
+import fcntl
 import sys
 from pathlib import Path
 
@@ -12,14 +13,12 @@ def main():
 
     url = sys.argv[1].strip()
 
-    existing = set()
-    if URL_FILE.exists():
-        existing = {line.strip() for line in URL_FILE.read_text(encoding="utf-8").splitlines() if line.strip()}
-
-    if url in existing:
-        sys.exit(1)
-
-    with URL_FILE.open("a", encoding="utf-8") as f:
+    with URL_FILE.open("a+", encoding="utf-8") as f:
+        fcntl.flock(f, fcntl.LOCK_EX)
+        f.seek(0)
+        existing = {line.strip() for line in f if line.strip()}
+        if url in existing:
+            sys.exit(1)
         f.write(url + "\n")
     sys.exit(0)
 

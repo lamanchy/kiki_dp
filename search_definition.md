@@ -159,20 +159,20 @@ Na rozdíl od environmentálních dopadů neexistuje jediná zastřešující st
 
 - české mediální obsahy v **psané podobě** — mediální články, přepsané rozhovory, psané reportáže a komentáře
 - publikované v období **1. 1. 2024 – 17. 4. 2026**
-- spojující **veganství / živočišnou produkci / rostlinnou produkci** s **ochranou životního prostředí**
+- spojující **veganský rámec** (intenzita ≠ Nulový) s **environmentálním rámcem** (intenzita ≠ Nulový)
 - kategorie médií: veřejnoprávní, soukromá / komerční, environmentálně nebo vegansky zaměřená
 - do vzorku je zahrnuto jakékoli médium, u nějž bude nalezen alespoň jeden relevantní text
 
-## Škála intenzity environmentálního rámce
+## Škála intenzity rámce
 
-Pro každý článek se určuje intenzita přítomnosti environmentálního rámce dle následující škály (inspirováno Entman 1993, *framing salience*):
+Používá se pro oba rámce (veganský i environmentální) samostatně. Inspirováno Entman 1993 (*framing salience*). Článek je zahrnut do vzorku pouze pokud má **oba** rámce s intenzitou ≠ Nulový.
 
 | Název | Definice |
 |-------|----------|
-| **Dominantní** | Enviro rámec je primárním tématem článku — článek by bez tohoto rámce nevznikl. Enviro argument tvoří páteř celého textu. |
-| **Přítomný** | Enviro argument tvoří alespoň jeden odstavec s vlastní argumentační logikou, ale není primárním tématem článku. Médium vědomě pracuje s enviro rámcem jako součástí sdělení. |
-| **Marginální** | Enviro téma se v článku vyskytuje pouze jako jedna věta nebo dekorativní zmínka bez argumentačního rozvití. |
-| **Nulový** | Enviro téma se v článku nevyskytuje — článek **není** zahrnut do vzorku. |
+| **Dominantní** | Rámec je primárním tématem článku — článek by bez něj nevznikl. Tvoří páteř celého textu. |
+| **Přítomný** | Rámec tvoří alespoň jeden odstavec s vlastní argumentační logikou, ale není primárním tématem článku. |
+| **Marginální** | Rámec zmíněn jednou větou nebo letmou zmínkou bez argumentačního rozvití. |
+| **Nulový** | Rámec se v článku nevyskytuje — článek **není** zahrnut do vzorku. |
 
 ## Přístup k paywallovým zdrojům
 
@@ -186,12 +186,12 @@ Do vzorku jsou zahrnuty i články za paywallem (např. *Respekt*). Pokud vyhled
 ├── search_prompt.md                # prompt pro subagenta fáze 1
 ├── search_queries.md               # log vyhledávacích dotazů (append-only)
 └── articles/
-    └── *datum* - *zdroj* - *intenzita* - *název*.md
+    └── *datum* - *zdroj* - *název*.md
 ```
 
 ## Formát článku
 
-**Název souboru:** `YYYY-MM-DD - zdroj - intenzita - název článku.md`
+**Název souboru:** `YYYY-MM-DD - zdroj - název článku.md`
 (paywallové navíc označit `[paywall]` za názvem)
 
 **Obsah — příklad:**
@@ -202,7 +202,8 @@ nazev: Proč mladí Češi stále méně často sahají po mase
 url: https://denikreferendum.cz/clanek/35421-proc-mladi-cesi-stale-mene-casto-sahaji-po-mase
 datum: 2025-06-15
 zdroj: Deník Referendum
-intenzita: Dominantní
+intenzita_vegan: Dominantní
+intenzita_enviro: Přítomný
 dotaz: rostlinná strava uhlíková stopa after:2023-12-31
 ---
 
@@ -211,6 +212,7 @@ dotaz: rostlinná strava uhlíková stopa after:2023-12-31
 Článek staví generační posun ve spotřebě masa primárně na environmentálním
 argumentu (uhlíková stopa hovězího, odlesňování Amazonie kvůli sóji pro krmivo).
 Zmiňuje studii Poore & Nemecek. Enviro rámec tvoří páteř celého textu → Dominantní.
+Veganský rámec přítomen jako kontext (rostlinná vs. živočišná strava) → Přítomný.
 
 ## Text článku
 
@@ -253,11 +255,11 @@ Kombinace klíčových slov z enviro + veganství → široké pokrytí obou té
 
 **Vstup:** `search_queries.md` s alespoň jedním řádkem ve stavu `čeká`.
 
-Pro každý čekající dotaz hlavní agent **postupně — vždy jen jednoho** spustí subagenta (`general-purpose`, viz `search_prompt.md`). Po návratu subagenta hlavní agent okamžitě:
+Každý subagent (`general-purpose`, viz `search_prompt.md`) dostane **právě jeden dotaz**. Hlavní agent spouští až 5 subagentů **naráz** (v jedné zprávě s více Agent tool calls). Po návratu všech subagentů z dávky hlavní agent:
 
-1. změní stav dotazu na `hotovo`
-2. doplní **Nových článků**
-3. teprve pak spustí dalšího subagenta
+1. změní stav všech dotazů z dávky na `hotovo`
+2. doplní **Nových článků** ke každému
+3. teprve pak spustí další dávku (až 5 dalších dotazů)
 
 Konec iterace: jedna věta shrnutí (počet nových, zdroje), git commit, `/clear`.
 
@@ -284,7 +286,7 @@ Vyhledávání je saturované, pokud fáze 2 **nepřidá žádný nový dotaz** 
 
 ## Doporučení pro výkon a cenu
 
-- **Subagenti fáze 1 sekvenčně** — jeden po druhém, aby každý měl aktuální seznam existujících článků a nepřekračoval se rate limit
+- **Subagenti fáze 1 paralelně po dávkách (max 5)** — `check_url.py` používá file locking, takže souběžné zápisy jsou bezpečné
 - Haiku pro subagenty fáze 1, Sonnet pro hlavní vlákno a fázi 2
 - **`/clear` mezi fázemi povinný** — bez něj kontext roste a prompt cache se rozpadá
 - **Prompt caching**: `search_definition.md` držet na začátku promptu subagenta

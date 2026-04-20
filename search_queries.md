@@ -41,12 +41,12 @@
 | zákon obnovy přírody zemědělství biodiverzita after:2023-12-31 | EU Nature Restoration Law vstoupilo v platnost 2024, explicitně zahrnuje zemědělské plochy; EnviWeb přinesl první článek, pravděpodobně více | hotovo | 0 |
 | Farm to Fork strategie maso emise after:2023-12-31 | EU Green Deal zemědělská strategie citovaná jako klíčový politický rámec v Deník Referendum i Greenpeace článcích, dosud bez vlastního dotazu | hotovo | 2 |
 | neonikotinoidy pesticidy včely zemědělství after:2023-12-31 | specifická třída pesticidů prominentní v Pleva.cz článku o opylovačích — obecný dotaz na pesticidy/biodiverzitu mohl přeskočit články zaměřené přímo na neonikotinoidy | hotovo | 1 |
-| metan chov skotu emise after:2023-12-31 | CH₄ specifičtěji než obecné "emise" — metan je ~30 % zemědělských skleníkových plynů, české mediální téma po ETS2 | | |
-| organické ekologické zemědělství klima emise after:2023-12-31 | BIO produkce jako alternativa intenzivního chovu — v datasetu 0 dedikovaných článků | | |
-| půda degradace zemědělství sekvestrace uhlíku after:2023-12-31 | ztráta organické hmoty půdy = velký emitor; sekvestrace = argument pro pastviny vs. orná půda | | |
+| metan chov skotu emise after:2023-12-31 | CH₄ specifičtěji než obecné "emise" — metan je ~30 % zemědělských skleníkových plynů, české mediální téma po ETS2 | hotovo | 0 |
+| organické ekologické zemědělství klima emise after:2023-12-31 | BIO produkce jako alternativa intenzivního chovu — v datasetu 0 dedikovaných článků | hotovo | 5 |
+| půda degradace zemědělství sekvestrace uhlíku after:2023-12-31 | ztráta organické hmoty půdy = velký emitor; sekvestrace = argument pro pastviny vs. orná půda | hotovo | 0 |
 | zoonózy průmyslový chov pandemie after:2023-12-31 | průnik welfare + enviro + veřejné zdraví; ptačí chřipka 2024 otevřela téma | hotovo | 1 |
-| lokální sezónní potraviny klimatická stopa doprava after:2023-12-31 | "food miles" a transport jako enviro argument — jiný rámec než produkce | | |
-| rostlinné mléko ovesné sójové emise klima after:2023-12-31 | boom oat/soy milk v ČR, zatím bez dotazu; mléčný průmysl vs. alternativy | | |
+| lokální sezónní potraviny klimatická stopa doprava after:2023-12-31 | "food miles" a transport jako enviro argument — jiný rámec než produkce | hotovo | 0 |
+| rostlinné mléko ovesné sójové emise klima after:2023-12-31 | boom oat/soy milk v ČR, zatím bez dotazu; mléčný průmysl vs. alternativy | hotovo | 3 |
 | reforma SZP zemědělci protesty Zelená dohoda after:2023-12-31 | protesty zemědělců 2024 explicitně namířené proti klimatickým požadavkům EU — silné politické téma | | |
 | hmyzí farmy alternativní protein Česko after:2023-12-31 | česká domácí produkce jedlého hmyzu — konkrétnější než obecný "hmyz alternativní protein" | | |
 | veganuary výzva Česko 2024 after:2023-12-31 | kampaň Veganuary má českou lokalizaci, ProVeg ji aktivně propaguje; články pravděpodobně existují | | |

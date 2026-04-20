@@ -37,3 +37,6 @@ with open("/home/lamanchy/dp/search_queries.md", "w", encoding="utf-8") as f:
     f.writelines(updated)
 
 print(f"\nAktualizováno {changed} řádků.")
+
+
+

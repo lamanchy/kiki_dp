@@ -3,7 +3,7 @@ nazev: Hmyz jako perspektivní zdroj krmiva pro zvířata
 url: https://www.welfareweb.cz/2025/03/hmyz-jako-perspektivni-zdroj-krmiva-pro-zvirata/
 datum: 2025-03-14
 zdroj: WelfareWeb
-intenzita_vegan: Nulový
+intenzita_vegan: Maginální
 intenzita_enviro: Přítomný
 dotaz: sója krmivo odlesňování after:2023-12-31
 ---
