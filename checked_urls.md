@@ -1342,3 +1342,13 @@ https://cz24.news/globalni-kabala-a-jeji-dabelske-plany-kdo-stoji-za-hladomorem-
 https://nli.gov.cz/wp-content/uploads/strategicky-plan-spolecne-zemedelske-politiky-ceske-republiky-na-obdobi-2023-2027-verze-6_3.pdf
 https://szif.gov.cz/cs/szp23-investice-zp
 https://commission.europa.eu/system/files/2023-04/Czechia-NRP-2023_CS.pdf
+https://www.blesk.cz/clanek/zpravy-politika/790399/ministri-znovu-projdou-green-deal-po-cesku-co-se-chysta-na-penezenky-cechu.html
+https://www.parlamentnilisty.cz/arena/rozhovory/Ke-zdrazeni-energii-pouziji-jakoukoliv-zaminku-Sichtarova-o-pozadi-za-Green-Dealem-779711
+https://www.akcr.cz/txt/green-deal-k-nezaplaceni-zatahneme-ho-v-cenach-jidla
+https://naschov.cz/geneticky-modifikovana-soja-je-bezpecna-pro-zarazeni-do-krmiv-v-eu/
+https://www.spolecenskaodpovednost.cz/udrzitelny-catering-kdyz-jidlo-meni-svet/
+https://www.novinky.cz/clanek/ekonomika-dansko-jako-prvni-zdani-emise-farmaru-40477685
+https://faktaomase.cz/home/activity/beyond-the-headlines/kravy-a-klima-slozity-vztah-ktery-je-prilis-casto-zjednodusovan/
+https://faktaomase.cz/home/activity/beyond-the-headlines/opravdu-chceme-zit-ve-svete-bez-krav/
+https://faktaomase.cz/home/activity/beyond-the-headlines/hledani-lepsich-modelu-pro-vysvetleni-akumulace-metanu-v-atmosfere/
+https://faktaomase.cz/home/activity/beyond-the-headlines/opravdu-prechod-na-rostlinnou-stravu-snizuje-emise/
